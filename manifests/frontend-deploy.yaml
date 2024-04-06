@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: <frontend_image_name>:<tag>
+        image: anshu049/frontend:latest
         ports:
         - containerPort: 80
         env:
